@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    padding-top: 100px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.seccion{
+    background-color: white;
+    width: 603px;
+    height: 574px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 72px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor{
+    width: 50%;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.boton{
+    width: 50%;
+}
+
+#inputColor{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+.opcion{
+    width: 175px;
+    height: 35px;
+    border-radius: 5px;
+}
+#botonEnviar{
+    width: 100%;
+}
+
+#inputNombre{
+    width: 100%;
+}
+#inputNota1{
+    width: 100%;
+}
+#inputNota2{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 35px;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 500px;
+}
